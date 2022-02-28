@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-The repository contains test cases and empty function definitions which need to be populated to solve the different challenges set in this weeks walkthrough. 🚨*You should not update the tests* 🚨
+The repository contains test cases and empty function definitions which need to be populated to solve the different challenges set in this weeks walkthrough. 🚨*You should not update the tests!* 🚨
 
 ## Getting started
 
