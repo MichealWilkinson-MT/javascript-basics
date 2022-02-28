@@ -1,13 +1,13 @@
 const getNthElement = (index, array) => {
-  return array[index]
+  // your code here
 };
 
 const arrayToCSVString = array => {
-  return array.toString()
+  // your code here
 };
 
 const csvStringToArray = string => {
-  return array.split()
+  // your code here
 };
 
 const addToArray = (element, array) => {
@@ -19,7 +19,7 @@ const addToArray2 = (element, array) => {
 };
 
 const removeNthElement = (index, array) => {
- return array.splice(index, 1)
+  // your code here
 };
 
 const numbersToStrings = numbers => {
