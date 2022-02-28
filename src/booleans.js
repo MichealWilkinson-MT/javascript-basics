@@ -1,73 +1,61 @@
 function negate(a) {
-  return !a
+  // your code here
 };
 
 function both(a, b) {
-  return a && b
+  // your code here
 };
 
 function either(a, b) {
-  return a || b
+  // your code here
 };
 
 function none(a, b) {
-  if (a || b == true){
-    return false
-  } else {
-    return true
-  }
+  // your code here
 };
 
 function one(a, b) {
-  if (a && b) {
-    return false;
-  }
-  return a || b;
+  // your code here
 };
 
 function truthiness(a) {
-  if (a) {
-    return true;
-  } else {
-    return false;
-  }
+  // your code here
 };
 
 function isEqual(a, b) {
-  return a === b
+  // your code here
 };
 
 function isGreaterThan(a, b) {
-  return a > b
+  // your code here
 };
 
 function isLessThanOrEqualTo(a, b) {
-  return a <= b
-}
+  // your code here
+};
 
 function isOdd(a) {
-  return a % 2 == 1
+  // your code here
 };
 
 function isEven(a) {
-  return a % 2 == 0
+  // your code here
 };
 
 function isSquare(a) {
-  return Math.sqrt(a) % 1 === 0
+  // your code here
 };
 
 function startsWith(char, string) {
-  return string.startsWith(char)
+  // your code here
 };
 
 function containsVowels(string) {
-  let reg = /[aeiou]/gi
-  return reg.test(string)
+  // your code here
 };
 
 function isLowerCase(string) {
-  return string == string.toLowerCase()
+  // your code here
 };
 
 module.exports = {
