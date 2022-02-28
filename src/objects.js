@@ -57,15 +57,30 @@ const findByName = (name, people) => {
 };
 
 const findHondas = cars => {
-  // your code here
+  let output= []
+  for (i = 0; i < cars.length; i++){
+    const car = cars[i]
+    if (car.manufacturer == "Honda"){
+      output.push(car)
+    }
+  
+  };
+  return output
 };
 
 const averageAge = people => {
-  // your code here
+  let NoPeople = 0
+  let TotalAge = 0
+  for (i = 0; i < people.length; i++){
+    const person = people[i]
+    TotalAge = TotalAge + person.age
+    NoPeople = NoPeople + 1
+  }
+  return (TotalAge/NoPeople)
 };
 
 const createTalkingPerson = (name, age) => {
-  // your code here
+  
 };
 
 module.exports = {
