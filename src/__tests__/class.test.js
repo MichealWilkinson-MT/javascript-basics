@@ -3,24 +3,24 @@ const {
 } = require('../class');
 
 describe('sayHello', () => {
-  xit('returns "Hello world!" when passed "world"', () => {
+  it('returns "Hello world!" when passed "world"', () => {
     const obj = new testingClass('world');
     expect(obj.sayHello()).toEqual('Hello, world!');
   });
 
-  xit('returns "Hello MCR Codes!" when passed "MCR Codes"', () => {
+  it('returns "Hello MCR Codes!" when passed "MCR Codes"', () => {
     const obj = new testingClass('MCR Codes');
     expect(obj.sayHello()).toEqual('Hello, MCR Codes!');
   });
 
-  xit('returns "Hello fsghjdfkhgf!" when passed "fsghjdfkhgf"', () => {
+  it('returns "Hello fsghjdfkhgf!" when passed "fsghjdfkhgf"', () => {
     const obj = new testingClass('fsghjdfkhgf');
     expect(obj.sayHello()).toEqual('Hello, fsghjdfkhgf!');
   });
 });
 
 describe('uppercase', () => {
-  xit('returns the uppercased string', () => {
+  it('returns the uppercased string', () => {
     const obj1 = new testingClass('abc');
     expect(obj1.uppercase()).toEqual('ABC');
     const obj2 = new testingClass('def');
@@ -31,7 +31,7 @@ describe('uppercase', () => {
 });
 
 describe('lowercase', () => {
-  xit('returns the lowercased string', () => {
+  it('returns the lowercased string', () => {
     const obj1 = new testingClass('ABC');
     expect(obj1.lowercase()).toEqual('abc');
     const obj2 = new testingClass('dEf');
@@ -42,7 +42,7 @@ describe('lowercase', () => {
 });
 
 describe('countCharacters', () => {
-  xit('returns the number of characters in the string', () => {
+  it('returns the number of characters in the string', () => {
     const obj1 = new testingClass('fsfsgsfdg');
     const obj2 = new testingClass('fsfsg');
     const obj3 = new testingClass('');
@@ -54,7 +54,7 @@ describe('countCharacters', () => {
 });
 
 describe('firstCharacter', () => {
-  xit('returns the first character of the string', () => {
+  it('returns the first character of the string', () => {
     const obj1 = new testingClass('ABC');
     const obj2 = new testingClass('dEf');
     const obj3 = new testingClass('GHi');
@@ -65,13 +65,13 @@ describe('firstCharacter', () => {
 });
 
 describe('firstCharacters', () => {
-  xit('returns the first 4 characters of the string', () => {
+  it('returns the first 4 characters of the string', () => {
     const obj1 = new testingClass('sd32fg45');
     expect(obj1.firstCharacters(4)).toEqual('sd32');
     expect(obj1.firstCharacters(2)).toEqual('sd');
   });
 
-  xit('returns the first 2 characters of the string', () => {
+  it('returns the first 2 characters of the string', () => {
     const obj1 = new testingClass('asd');
     expect(obj1.firstCharacters(2)).toEqual('as');
   });

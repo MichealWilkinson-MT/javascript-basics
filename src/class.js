@@ -3,27 +3,27 @@ class testingClass {
     this._string = string;
   }
   sayHello = () => {
-    // your code here
+    return `Hello, ${this._string}!`
   };
 
   uppercase = () => {
-    // your code here
+    return this._string.toUpperCase()
   };
 
   lowercase = () => {
-    // your code here
+    return this._string.toLowerCase()
   };
 
   countCharacters = () => {
-    // your code here
+    return this._string.length
   };
 
   firstCharacter = () => {
-    // your code here
+    return this._string.charAt(0)
   };
 
   firstCharacters = (n) => {
-    // your code here
+    return this._string.substr(0, n)
   };
 }
 
