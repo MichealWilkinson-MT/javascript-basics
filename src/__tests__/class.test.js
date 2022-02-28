@@ -33,11 +33,11 @@ describe('uppercase', () => {
 describe('lowercase', () => {
   xit('returns the lowercased string', () => {
     const obj1 = new testingClass('ABC');
-    expect(obj1.uppercase()).toEqual('abc');
+    expect(obj1.lowercase()).toEqual('abc');
     const obj2 = new testingClass('dEf');
-    expect(obj2.uppercase()).toEqual('def');
+    expect(obj2.lowercase()).toEqual('def');
     const obj3 = new testingClass('GHi');
-    expect(obj3.uppercase()).toEqual('ghi');
+    expect(obj3.lowercase()).toEqual('ghi');
   });
 });
 

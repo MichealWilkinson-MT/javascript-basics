@@ -5,10 +5,9 @@ The repository contains test cases and empty function definitions which need to 
 ## Getting started
 
 ### Clone the repository
-First up, create a fork of this repo.
 
 Then clone your copy of the repo:
-- `git clone git@github.com:*your-github-username*/javascript-basics.git`
+- `git clone https://github.com/MichealWilkinson-MT/javascript-basics.git`
 
 Then `cd` into the repository.
 
