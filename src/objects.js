@@ -29,7 +29,7 @@ const hasProperty = (property, object) => {
 };
 
 const isOver65 = person => {
-  if (person.age < 65){
+  if (person.age > 65){
     return true
   } else {
     return false
