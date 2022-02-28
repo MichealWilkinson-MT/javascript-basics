@@ -34,14 +34,6 @@ function absolute (a) {
   // your code here
 }
 
-function quotient (a, b) {
-  // your code here
-}
-
-function remainder (a, b) {
-  // your code here
-}
-
 module.exports = {
   add,
   subtract,
@@ -51,7 +43,5 @@ module.exports = {
   round,
   roundUp,
   roundDown,
-  absolute,
-  quotient,
-  remainder
+  absolute
 }
