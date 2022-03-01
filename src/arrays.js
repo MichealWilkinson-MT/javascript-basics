@@ -38,7 +38,12 @@ const numbersToStrings = numbers => {
 };
 
 const uppercaseWordsInArray = strings => {
-  return
+  let output = []
+  for (i = 0; i < strings.length; i++){
+    const letters = strings[i]
+    output.push(letters.toUpperCase())
+  }
+  return output;
 };
 
 const reverseWordsInArray = strings => {
@@ -50,7 +55,9 @@ const onlyEven = numbers => {
 };
 
 const removeNthElement2 = (index, array) => {
-  // your code here
+  const array2 = [...array]
+  array2.splice(index, 1)
+  return array2;
 };
 
 const elementsStartingWithAVowel = strings => {
