@@ -55,7 +55,9 @@ const onlyEven = numbers => {
 };
 
 const removeNthElement2 = (index, array) => {
-  // your code here
+  const array2 = [...array]
+  array2.splice(index, 1)
+  return array2;
 };
 
 const elementsStartingWithAVowel = strings => {
