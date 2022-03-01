@@ -46,7 +46,10 @@ const reverseWordsInArray = strings => {
 };
 
 const onlyEven = numbers => {
-  // your code here
+  const even = numbers.filter(number => {
+    return number % 2 ===0;
+  })
+  return even
 };
 
 const removeNthElement2 = (index, array) => {
@@ -58,7 +61,8 @@ const elementsStartingWithAVowel = strings => {
 };
 
 const removeSpaces = string => {
-  // your code here
+  return string.replace(/\s/g,'')
+  
 };
 
 const sumNumbers = numbers => {

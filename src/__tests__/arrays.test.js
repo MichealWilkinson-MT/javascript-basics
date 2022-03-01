@@ -19,34 +19,34 @@ const {
 describe('getNthElement', () => {
   const array = ['cat', 'dog', 'elephant', 'fox'];
 
-  it('returns the element at the given position', () => {
+  xit('returns the element at the given position', () => {
     expect(getNthElement(0, array)).toEqual('cat');
     expect(getNthElement(2, array)).toEqual('elephant');
     expect(getNthElement(3, array)).toEqual('fox');
   });
 
-  it('if n is greater than the number of elements, it cycles back to the start', () => {
+  xit('if n is greater than the number of elements, it cycles back to the start', () => {
     expect(getNthElement(4, array)).toEqual('cat');
     expect(getNthElement(5, array)).toEqual('dog');
   });
 });
 
 describe('arrayToCSVString', () => {
-  it('returns the array elements as a comma-seperated string', () => {
+  xit('returns the array elements as a comma-seperated string', () => {
     expect(arrayToCSVString(['a', 'b', 'c', 'd'])).toEqual('a,b,c,d');
     expect(arrayToCSVString([1, 2, 3, 4, 5])).toEqual('1,2,3,4,5');
   });
 });
 
 describe('csvStringToArray', () => {
-  it('converts the csv string as an array', () => {
+  xit('converts the csv string as an array', () => {
     expect(csvStringToArray('a,b,c,d')).toEqual(['a', 'b', 'c', 'd']);
     expect(csvStringToArray('1,2,3,4,5')).toEqual(['1', '2', '3', '4', '5']);
   });
 });
 
 describe('addToArray', () => {
-  it('adds the item to the end of the array', () => {
+  xit('adds the item to the end of the array', () => {
     const array = [];
     const array2 = [1, 2, 3];
 
@@ -59,7 +59,7 @@ describe('addToArray', () => {
 });
 
 describe('addToArray2', () => {
-  it('returns a new array with the value appended', () => {
+  xit('returns a new array with the value appended', () => {
     const array = ['a', 'b', 'c'];
     const array2 = [1, 2, 3];
 
@@ -72,7 +72,7 @@ describe('addToArray2', () => {
 });
 
 describe('removeNthElement', () => {
-  it('removes the element at position n', () => {
+  xit('removes the element at position n', () => {
     const array = ['ant', 'bison', 'cockerel', 'duck', 'elephant'];
     removeNthElement(2, array);
     expect(array).toEqual(['ant', 'bison', 'duck', 'elephant']);
@@ -84,7 +84,7 @@ describe('removeNthElement', () => {
 });
 
 describe('numbersToStrings', () => {
-  it('converts every number in the array to a string', () => {
+  xit('converts every number in the array to a string', () => {
     expect(numbersToStrings([1, 2, 3])).toEqual(['1', '2', '3']);
     expect(numbersToStrings([7, 8, 9])).toEqual(['7', '8', '9']);
   });
@@ -121,7 +121,7 @@ describe('reverseWordsInArray', () => {
 });
 
 describe('onlyEven', () => {
-  xit('filters the array and only returns even numbers', () => {
+  it('filters the array and only returns even numbers', () => {
     expect(onlyEven([1, 2, 3, 4, 5, 6, 7, 8])).toEqual([2, 4, 6, 8]);
     expect(onlyEven([8, 9, 10, 11, 12, 13, 14, 15])).toEqual([8, 10, 12, 14]);
   });
