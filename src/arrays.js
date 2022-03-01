@@ -56,10 +56,7 @@ const removeNthElement2 = (index, array) => {
 const elementsStartingWithAVowel = strings => {
   // your code here
 };
-// let total = numbers.reduce(function(previousValue, currentValue){
-//   return previousValue  + currentValue 
-// })
-// return total
+
 const removeSpaces = string => {
   // your code here
 };
@@ -73,6 +70,11 @@ const sumNumbers = numbers => {
   return sum
 };
 
+// THIS IS ANOTHER WAY TO DO IT
+// let total = numbers.reduce(function(previousValue, currentValue){
+//   return previousValue  + currentValue 
+// })
+// return total
 const sortByLastLetter = strings => {
   // your code here
 };
