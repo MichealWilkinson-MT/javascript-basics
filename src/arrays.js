@@ -61,7 +61,7 @@ const removeNthElement2 = (index, array) => {
 };
 
 const elementsStartingWithAVowel = strings => {
-  let reg = /^[aeiou]/
+  let reg = /^[aeiou]/i
   return strings.filter(str => reg.test(str))
 };
 
