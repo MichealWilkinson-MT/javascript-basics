@@ -1,6 +1,6 @@
 const getNthElement = (index, array) => {
   while (index >= array.length) {
-    index=index-array.length;
+    index = index - array.length;
   }
   return array[index]
 };
@@ -13,24 +13,24 @@ const csvStringToArray = string => {
   return string.split(",")
 };
 
-const addToArray = (element, array) => {   
+const addToArray = (element, array) => {
   array.push(element)
 };
 
-const addToArray2 = (element, array) => {   
+const addToArray2 = (element, array) => {
   let array2 = [...array];
   array2.push(element)
-    return array2;
+  return array2;
 };
 
-const removeNthElement = (index, array) => {   
+const removeNthElement = (index, array) => {
   array.splice(index, 1)
   return array;
 };
 
 const numbersToStrings = numbers => {
   let output = []
-  for (i = 0; i < numbers.length; i++){
+  for (i = 0; i < numbers.length; i++) {
     const number = numbers[i]
     output.push(number.toString())
   }
@@ -70,9 +70,19 @@ const removeSpaces = string => {
 };
 
 const sumNumbers = numbers => {
-  // your code here
+  let sum = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum
 };
 
+// THIS IS ANOTHER WAY TO DO IT
+// let total = numbers.reduce(function(previousValue, currentValue){
+//   return previousValue  + currentValue 
+// })
+// return total
 const sortByLastLetter = strings => {
   // your code here
 };
