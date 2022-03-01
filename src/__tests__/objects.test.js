@@ -69,12 +69,20 @@ describe('hasProperty', () => {
     name: 'Tom',
     age: 23
   };
+   const steve = {
+     favouriteColour: 'steve'
+   }
+   const billy = {
+     arms: 'billy'
+   }
 
   it('returns true if the object has the given property', () => {
     expect(hasProperty('age', fred)).toBe(true);
     expect(hasProperty('name', tom)).toBe(true);
     expect(hasProperty('favouriteColour', fred)).toBe(false);
     expect(hasProperty('arms', tom)).toBe(false);
+    expect(hasProperty('favouriteColour', steve)).toBe(true);
+    expect(hasProperty('arms', billy)).toBe(true);
   });
 });
 

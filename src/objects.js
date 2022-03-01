@@ -19,13 +19,7 @@ const getProperty = (property, object) => {
 };
 
 const hasProperty = (property, object) => {
-  if(property == "name"){
-    return true
-  } else if (property == "age"){
-    return true
-  } else {
-    return false
-  }
+  return object[property] !== undefined;
 };
 
 const isOver65 = person => {
@@ -91,11 +85,6 @@ const createTalkingPerson = (name, age) => {
 };
 
 
-//{
-  //a: variable,
-  //b: function() {},
-  //c: variable
-  //}
 
 module.exports = {
   createPerson,
