@@ -1,4 +1,5 @@
 # JavaScript Basics
+This was lovingly coppied from [MCRcodes/javascript-basics](https://github.com/MCRcodes/javascript-basics) but modified for use in our 2022 bootcamp. All credit goes to [MCRCodes](https://github.com/MCRcodes) for the amazing work in this repo
 
 The repository contains test cases and empty function definitions which need to be populated to solve the different challenges set in this weeks walkthrough. 🚨*You should not update the tests!* 🚨
 
